@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
