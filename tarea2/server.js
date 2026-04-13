@@ -16,6 +16,7 @@ app.get('/contacto', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'contacto.html'))
 })
 
+
 //Rutas POST
 
 app.post('/contacto', async (req, res) => {

@@ -76,7 +76,8 @@
       </div>
 
       <!-- Formulario -->
-      <form action="exito" method="GET">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="790cabca-7109-4505-91a3-537822fa1b6d">
         <div class="form-group">
           <label class="form-label" for="nombre">Nombre</label>
           <input
@@ -95,7 +96,7 @@
             class="form-control"
             type="email"
             id="email"
-            name="email"
+            name="correo"
             placeholder="tu@email.com"
             required
           >
@@ -122,6 +123,9 @@
             required
           ></textarea>
         </div>
+
+        <input type="hidden" name="redirect" value="/exito">
+
 
         <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
           Enviar mensaje →
