@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Luis Cacho</title>
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">LC</a>
+    <div class="nav-links">
+      <a href="index.html#sobre-mi">Sobre mí</a>
+      <a href="index.html#experiencia">Experiencia</a>
+      <a href="index.html#proyectos">Proyectos</a>
+      <a href="contacto.html" style="color: var(--accent)">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- CONTACTO -->
+  <section style="padding-top: 120px;">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">CONTACTO</h2>
+    </div>
+    <div class="contact-layout">
+
+      <!-- Info -->
+      <div class="contact-info">
+        <p style="color: #aaa; font-weight: 300; margin-bottom: 8px;">
+          ¿Tienes un proyecto, propuesta o simplemente quieres saludar?<br>
+          Escríbeme, respondo rápido.
+        </p>
+
+        <div class="contact-row">
+          <div class="icon">📧</div>
+          <div>
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:tu@email.com">tu@email.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">📍</div>
+          <div>
+            <div class="label">Ubicación</div>
+            <div class="value">Zapopan, Jalisco, México</div>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">💼</div>
+          <div>
+            <div class="label">LinkedIn</div>
+            <div class="value"><a href="#">linkedin.com/in/tu-perfil</a></div>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">🐙</div>
+          <div>
+            <div class="label">GitHub</div>
+            <div class="value"><a href="#">github.com/tu-usuario</a></div>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <div class="icon">📱</div>
+          <div>
+            <div class="label">Teléfono</div>
+            <div class="value">+52 33 XXXX XXXX</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <form action="exito.html" method="GET">
+        <div class="form-group">
+          <label class="form-label" for="nombre">Nombre</label>
+          <input
+            class="form-control"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre completo"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input
+            class="form-control"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="tu@email.com"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="asunto">Asunto</label>
+          <input
+            class="form-control"
+            type="text"
+            id="asunto"
+            name="asunto"
+            placeholder="Propuesta, colaboración, práctica..."
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="mensaje">Mensaje</label>
+          <textarea
+            class="form-control"
+            id="mensaje"
+            name="mensaje"
+            placeholder="Cuéntame de qué se trata..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+          Enviar mensaje →
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="copy">© 2025 Luis Cacho · Zapopan, MX</span>
+    <div class="socials">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
